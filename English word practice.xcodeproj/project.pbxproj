@@ -14,6 +14,7 @@
 		9079733827E9BA46002DEB39 /* English_word_practice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9079733627E9BA46002DEB39 /* English_word_practice.xcdatamodeld */; };
 		9079733A27E9BA49002DEB39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9079733927E9BA49002DEB39 /* Assets.xcassets */; };
 		9079733D27E9BA49002DEB39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9079733B27E9BA49002DEB39 /* LaunchScreen.storyboard */; };
+		9079734527E9C2F7002DEB39 /* TopicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9079734427E9C2F7002DEB39 /* TopicModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9079733927E9BA49002DEB39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9079733C27E9BA49002DEB39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9079733E27E9BA49002DEB39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9079734427E9C2F7002DEB39 /* TopicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				9079732D27E9BA46002DEB39 /* AppDelegate.swift */,
 				9079732F27E9BA46002DEB39 /* SceneDelegate.swift */,
 				9079733127E9BA46002DEB39 /* ViewController.swift */,
+				9079734427E9C2F7002DEB39 /* TopicModel.swift */,
 				9079733327E9BA46002DEB39 /* Main.storyboard */,
 				9079733927E9BA49002DEB39 /* Assets.xcassets */,
 				9079733B27E9BA49002DEB39 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9079734527E9C2F7002DEB39 /* TopicModel.swift in Sources */,
 				9079733227E9BA46002DEB39 /* ViewController.swift in Sources */,
 				9079733827E9BA46002DEB39 /* English_word_practice.xcdatamodeld in Sources */,
 				9079732E27E9BA46002DEB39 /* AppDelegate.swift in Sources */,
@@ -300,6 +304,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,6 +332,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
