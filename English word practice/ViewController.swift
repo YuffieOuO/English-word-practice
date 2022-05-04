@@ -84,7 +84,7 @@ class ViewController: UIViewController {
         var answers:[TopicModel]
         var indexA = Int.random(in: 0..<maximumIndex)
         var indexB = Int.random(in: 0..<maximumIndex)
-        while indexA == index && indexB == indexA {
+        while indexA == index || indexB == indexA {
             if indexA == index {
                 indexA = Int.random(in: 0..<maximumIndex)
             }
