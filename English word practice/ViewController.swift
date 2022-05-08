@@ -4,7 +4,7 @@
 //
 //  Created by Yuffie on 2022/3/22.
 //
-
+import AVFoundation
 import UIKit
 
 class ViewController: UIViewController {
@@ -43,6 +43,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func speake(_ sender: Any) {
+        let speechUtterance = AVSpeechUtterance(string: words[index].question)
+        let synthesizer = AVSpeechSynthesizer()
+        speechUtterance.voice = AVSpeechSynthesisVoice(language: "en-US")
+        speechUtterance.rate = 0.5
+        synthesizer.speak(speechUtterance)
     }
     
     @IBAction func hint(_ sender: Any) {
