@@ -48,7 +48,7 @@ var topic = [
     TopicModel(question: "adjust", answer: "調整"),
     TopicModel(question: "advantage", answer: "優勢"),
     TopicModel(question: "maintainability", answer: "可維護性"),
-//    TopicModel(question: <#T##String#>, answer: <#T##String#>),
+    TopicModel(question: "indicate", answer: "表明"),
 //    TopicModel(question: <#T##String#>, answer: <#T##String#>),
 //    TopicModel(question: <#T##String#>, answer: <#T##String#>),
 //    TopicModel(question: <#T##String#>, answer: <#T##String#>),
